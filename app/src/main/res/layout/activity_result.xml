@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ResultActivity"
+    android:background="@color/black">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="640sp">
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:text="Encoder: Use the in-game keys (dot, dash, space, back, left, right) to translate the displayed word into morse code\n
+Decoder: Translate the displayed morse code into English using the keyboard.\n
+If you switch gamemodes mid-game from the menu, look at the chart or enter an incorrect answer, your score will be reset, but when you get a new high score, it is saved automatically. \n
+A: .-        N: -.\n
+B: -...      O: ---\n
+C: -.-.      P: .--.\n
+D: -..       Q: --.-\n
+E: .         R: .-.\n
+F: ..-.      S: ...\n
+G: --.       T: -\n
+H: ....      U: ..-\n
+I: ..        V: ...-\n
+J: .---      W: .--\n
+K: -.-       X: -..-\n
+L: .-..      Y: -.--\n
+M: --        Z: --..
+"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to game"
+        android:textSize="30sp" />
+
+</LinearLayout>
