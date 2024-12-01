@@ -1,4 +1,3 @@
-<p>Backstory: I was playing "Keep Talking and Nobody Explodes" with one of my friends, and if you've played it, you may have come across the minigame which makes you translate a word in morse code to defuse one of the modules. I found manually translating to be annoying enough that I decided to teach myself morse code, but in a fun way, inspired by Duolingo.</p>
 <p>Below are some gameplay screenshots. The first image is "Encoder", where you are given a word to translate into morse code, using the in-game buttons. The second image is "Decoder", where you are given a word in morse code to translate into English. The final image is the instructions, accessible from the "help" button, which also contains a translation chart.</p>
 
 <img src="https://github.com/user-attachments/assets/4870e0b2-8a4a-4fad-8556-9464fee6c021" width="250" style="float: centre; margin-right: 100px;">
